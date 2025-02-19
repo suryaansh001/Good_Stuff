@@ -1,0 +1,5 @@
+train: ./dataset/images/train  # Path to training images
+val: ./dataset/images/val  # Path to validation images
+
+nc: 4  # Replace with the number of classes
+names: ["crosswalk","speedlimit","stop",trafficlight"]
